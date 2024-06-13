@@ -17,3 +17,7 @@ T
 $src/test/java/pages/ProductPage.java,d/3/d3d1f0b73a437016b8e297cf4d10e792b2c6b213
 S
 #src/test/java/pages/SearchPage.java,9/d/9d262a728f2e510b5a82fdb800d57886a24a4b49
+S
+#src/test/java/steps/LoginSteps.java,6/0/60a999fa2ae56d1081f61fa5b8a47ecba8253150
+U
+%src/test/java/utils/ConfigReader.java,a/a/aada9fb741f035124bcf3d741a109a0a229b1011
