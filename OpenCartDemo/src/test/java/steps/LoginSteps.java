@@ -4,22 +4,28 @@ import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.LoginPage;
-import static org.junit.Assert.assertTrue;
+import utils.CommonMethods;
+import utils.ConfigReader;
 
-public class LoginSteps {
-    WebDriver driver;
-    LoginPage loginPage;
+import java.io.IOException;
+
+import static org.junit.Assert.assertTrue;
+import static utils.PageInitializer.loginPage;
+
+
+public class LoginSteps extends CommonMethods {
 
     @Given("I navigate to the login page")
-    public void iNavigateToTheLoginPage() {
-        driver = new ChromeDriver();
-        loginPage = new LoginPage(driver);
-        loginPage.navigateToLoginPage();
+    public void iNavigateToTheLoginPage() throws IOException {
+        setUp();
     }
 
     @When("I enter username {string}")
-    public void iEnterUsername(String username) {
-        loginPage.enterUsername(username);
+    public void iEnterUsername(String username) throws IOException {
+        loginPage.usernameField.sendKeys(ConfigReader.read("userName"));
+        // loginPage.enterUsername();
+        loginPage.passwordField.sendKeys(ConfigReader.read("password"));
+        //loginPage.enterUsername(username);
     }
 
     @When("I enter password {string}")

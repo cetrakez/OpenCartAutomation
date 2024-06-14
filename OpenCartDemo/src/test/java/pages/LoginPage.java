@@ -9,16 +9,15 @@ public class LoginPage {
     WebDriver driver;
 
     @FindBy(id = "input-email")
-    private WebElement usernameField;
+    public WebElement usernameField;
 
     @FindBy(id = "input-password")
-    private WebElement passwordField;
+    public WebElement passwordField;
 
     @FindBy(xpath = "//button[text()='Login']")
     private WebElement loginButton;
 
-    public LoginPage(WebDriver driver) {
-        this.driver = driver;
+    public LoginPage(){
         PageFactory.initElements(driver, this);
     }
 

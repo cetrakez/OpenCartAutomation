@@ -21,3 +21,9 @@ S
 #src/test/java/steps/LoginSteps.java,6/0/60a999fa2ae56d1081f61fa5b8a47ecba8253150
 U
 %src/test/java/utils/ConfigReader.java,a/a/aada9fb741f035124bcf3d741a109a0a229b1011
+R
+"src/test/java/utils/Constants.java,b/a/ba57d2c87de25139730651fbd55aae9cac490d9a
+U
+%src/test/java/runners/TestRunner.java,6/8/683416d30a7936e18b925a37c73fb207dbb02b81
+X
+(src/test/java/utils/PageInitializer.java,4/6/464faf2d195f7c8b59b5f94cdf57a152ddb052f2
