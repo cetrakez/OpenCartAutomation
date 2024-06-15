@@ -27,3 +27,5 @@ U
 %src/test/java/runners/TestRunner.java,6/8/683416d30a7936e18b925a37c73fb207dbb02b81
 X
 (src/test/java/utils/PageInitializer.java,4/6/464faf2d195f7c8b59b5f94cdf57a152ddb052f2
+U
+%src/test/java/steps/ProductSteps.java,7/2/72d337f695538abcddb5ec303b8073b1c6db2ef0

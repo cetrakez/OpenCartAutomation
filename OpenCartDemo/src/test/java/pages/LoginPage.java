@@ -4,10 +4,10 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utils.CommonMethods;
 
-import static utils.CommonMethods.driver;
 
-public class LoginPage {
+public class LoginPage extends CommonMethods {
 
     @FindBy(id = "input-email")
     public WebElement usernameField;
@@ -17,6 +17,12 @@ public class LoginPage {
 
     @FindBy(xpath = "//button[text()='Login']")
     public WebElement loginButton;
+
+    @FindBy(css = ".d-none.d-md-inline")
+    public WebElement myAccount;
+
+    @FindBy(css = "a.dropdown-item[href*='route=account/login']")
+    public WebElement loginLink;
 
     public LoginPage() {
         PageFactory.initElements(driver, this);

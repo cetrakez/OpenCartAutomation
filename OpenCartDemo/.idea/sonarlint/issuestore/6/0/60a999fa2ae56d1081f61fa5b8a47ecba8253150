@@ -1,9 +1,15 @@
 
+¯
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(©™öÁ8ÌÀªí2J$db49e070-3416-4404-9cae-550a75e21937
 g
-java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8 ¯ŸË2J$45d60fcc-875c-4019-956e-2201ce2aaea7
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8±¾Œí2J$870c8fb7-2d02-4b77-952e-d2d638ed42cc
 g
-java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8éàŸË2J$0b981141-a2f5-45f9-8371-8f85450a85fb
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8±¾Œí2J$f520243d-c86a-469a-97c1-0ea3eeec073e
 g
-java:S2925""$Remove this use of "Thread.sleep()".(¯ú™ú8š Ë2J$31460d8a-715d-4978-aa26-308dbc89ba1e
-
-java:S1128	"<Remove this unused import 'utils.PageInitializer.loginPage'.(¯ÌÀé8 ¯ŸË2J$f54a16e9-02b7-4184-b0fa-16b1ece492cf
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8±¾Œí2J$4cd3ecc1-5ffd-43c0-bf55-306bcd46e066
+g
+java:S2925%"$Remove this use of "Thread.sleep()".(¯ú™ú8£ø¬í2J$446db5d2-f909-48ff-9118-c0c1cd29991a
+g
+java:S2925+"$Remove this use of "Thread.sleep()".(¯ú™ú8îâ­í2J$254d057d-b8f3-4450-b733-99f48719721f
+Y
+java:S1128	"<Remove this unused import 'utils.PageInitializer.loginPage'.(¯ÌÀé8é½°í2

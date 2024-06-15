@@ -10,9 +10,18 @@ import static utils.PageInitializer.loginPage;
 
 public class LoginSteps extends CommonMethods {
 
-    @Given("I navigate to the login page")
-    public void iNavigateToTheLoginPage() throws IOException {
+    @Given("I access the main website")
+    public void accessMainWebsite() throws IOException {
         setUp();  // Initialize the driver and navigate to the URL
+    }
+
+    @And("I navigate to the login page")
+    public void iNavigateToTheLoginPage() throws IOException, InterruptedException {
+        //click My Account dropdown & click Register
+        click(loginPage.myAccount);
+        Thread.sleep(2000);
+        click(loginPage.loginLink);
+        Thread.sleep(2000);
     }
 
     @When("I enter username")
