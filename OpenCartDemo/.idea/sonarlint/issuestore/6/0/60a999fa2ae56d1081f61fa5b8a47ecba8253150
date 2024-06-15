@@ -1,3 +1,9 @@
 
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÍŠÖğûÿÿÿÿ8â¢ß£2J$c2fb175b-4bae-4c32-9ac4-a5852ee14611
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(º—æ¤ùÿÿÿÿ8â¢ß£2J$a33ff001-d6ea-4f9d-896c-97418e022c51
+g
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8 ¯ŸË2J$45d60fcc-875c-4019-956e-2201ce2aaea7
+g
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8éàŸË2J$0b981141-a2f5-45f9-8371-8f85450a85fb
+g
+java:S2925""$Remove this use of "Thread.sleep()".(¯ú™ú8š Ë2J$31460d8a-715d-4978-aa26-308dbc89ba1e
+
+java:S1128	"<Remove this unused import 'utils.PageInitializer.loginPage'.(¯ÌÀé8 ¯ŸË2J$f54a16e9-02b7-4184-b0fa-16b1ece492cf
