@@ -1,6 +1,6 @@
 Feature: Login Functionality
 
-  @111
+  @login
   Scenario: Successful login with valid credentials
     Given I access the main website
     And I navigate to the login page
