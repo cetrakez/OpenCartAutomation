@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,6 +40,47 @@ public class ProductPage extends CommonMethods {
     public boolean areProductImagesDisplayed() {
         return productImage.isDisplayed();
     }
+
+    @FindBy(xpath = "//button[@id='button-cart']")
+    public WebElement addToCartBtn;
+
+    @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+    public WebElement ATCSuccessMessage;
+
+    public WebElement getATCSuccessMessage() {
+        return ATCSuccessMessage;
+    }
+    @FindBy(xpath = "//a[@title='Shopping Cart']")
+    public WebElement cart;
+
+    @FindBy(xpath = "//a[text()='Write a review']")
+    public WebElement writeReviewLink;
+
+    @FindBy(id = "input-name")
+    public WebElement nameField;
+
+    @FindBy(id = "input-text")
+    public WebElement reviewField;
+
+    @FindBy(xpath = "//input[@name='rating' and @value='5']")
+    public WebElement goodRating;
+
+    public void rateProductWithGoodRating() {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", goodRating);
+    }
+
+    @FindBy(xpath = "//button[text()='Continue']")
+    public WebElement continueButton;
+
+    public void clickContinueButton() {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", continueButton);
+    }
+
+    @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+    public WebElement ReviewSuccessMessage;
+
+
+
 
     public ProductPage() {
         driver = driver;

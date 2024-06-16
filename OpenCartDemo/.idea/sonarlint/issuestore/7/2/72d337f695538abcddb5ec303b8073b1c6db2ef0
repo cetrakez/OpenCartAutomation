@@ -1,7 +1,5 @@
 
 g
-java:S2925 "$Remove this use of "Thread.sleep()".(Úõôñ8ËÇˆ‚2J$698a532a-31a4-4c85-9aa1-8d7e8b05af91
+java:S2925 "$Remove this use of "Thread.sleep()".(Úõôñ8İı‘‚2J$d8c80374-d8a8-4655-a394-6c88006d3028
 g
-java:S2925j"$Remove this use of "Thread.sleep()".(¯ú™ú8ÌÇˆ‚2J$210b1491-b538-4388-bfcd-61c16bd5e282
-
-java:S1128">Remove this unused import 'utils.PageInitializer.productPage'.(¯ì“Ğ8ÌÇˆ‚2J$2e67b112-f739-4a12-9315-baca98b34e54
+java:S2925b"$Remove this use of "Thread.sleep()".(¯ú™ú8İı‘‚2J$adee7e11-1c15-41db-b1ae-71a9d1a474b5
