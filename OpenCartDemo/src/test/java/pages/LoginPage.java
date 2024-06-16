@@ -18,7 +18,7 @@ public class LoginPage extends CommonMethods {
     @FindBy(xpath = "//button[text()='Login']")
     public WebElement loginButton;
 
-    @FindBy(css = ".d-none.d-md-inline")
+    @FindBy(xpath = "//span[text()='My Account']")
     public WebElement myAccount;
 
     @FindBy(css = "a.dropdown-item[href*='route=account/login']")
